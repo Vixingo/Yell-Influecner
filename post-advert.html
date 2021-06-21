@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Avert</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/post_an_advert.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+
+
+
+</head>
+
+<body>
+    <section class="heromain">
+        <div class="container ">
+            <!---------------------------------nav----------------------------------->
+            <nav class="navbar navbar-expand-lg navbar-light  ">
+                <div class="container-fluid fixingbug">
+                    <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link act" href="how_it_works.html">HOW IT WORKS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link act" href="browse_talent.html">BROWSE TALENTS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link act" href="post-advert.html">POST AN ADVERT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="signin.html"> <button type="button" class="btn">LOG IN</button></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </nav>
+            <!------------------------------hero main area-------------------------------->
+            <div class="hero-text text-center">
+                <h1>Post An <span>Advert</span></h1>
+                <p>
+                    It is quick and simple to post an advert. Once the advert is live, you will start receiving <br>
+                    applications from social talents. Choose the person you want to<br> work with and get your campaign
+                    started.
+                    <!-- It is quick and simple to post an advert, once the advert is live<br>you will start
+                    receiving
+                    applications from top talents. Choose<br>the person you want to work with. -->
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="advert_details py-5">
+        <div class="container">
+            <h4>Advert Details</h4>
+            <p>add short description here..</p>
+
+            <section class="advert_form pt-5">
+                <div class="advert_form_div">
+                    <h5>Give your listing a title</h5>
+                    <input type="text" class="advert_form_input"
+                        placeholder="Example, Influencer wanted for a clothing brand  ">
+                </div>
+
+                <div class="advert_form_div">
+                    <h5>WHERE DO YOU WANT THE TALENT IS FROM OR WHERE IS THE JOB LOCATION?</h5>
+
+                    <div class="form_check">
+                        <input class="form-check-input" type="radio" value="" name="from" id="flexCheckDefault">
+                        <select name="" id="">
+                            <option value="">United Kingdom</option>
+                            <option value="">Italy</option>
+                            <option value="">Greece</option>
+                            <option value="">Canada</option>
+
+                        </select>
+                    </div>
+                    <div class="form_check">
+                        <input class="form-check-input" type="radio" name="from" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            No specific location - job can be done from home
+                        </label>
+                    </div>
+
+                </div>
+
+                <div class="advert_form_div">
+                    <h5>I want applications from</h5>
+
+                    <a class="btn loc_gray">London</a>
+                    <a class="btn loc_gray">Edinburgh</a>
+                    <a class="btn loc_green">Birmingham</a>
+                    <a class="btn loc_green">Glasgow</a>
+                    <a class="btn loc_green">Liverpool</a><br class="hide">
+                    <a class="btn loc_gray">Belfast</a>
+                    <a class="btn loc_gray">Bristol</a>
+                </div>
+
+                <div class="advert_form_div">
+                    <h5>Describe WHO YOU'RE LOOKING FOR AND WHAT YOUR PROJECT IS ALL ABOUT.</h5>
+                    <textarea class="form-control" name="" rows="10" placeholder="Description is required and must be at least 200 characters long. Do you require an influencer to attend an event?
+
+Do you need a content creator to create amazing content for your business? 
+
+It is important you share as much information about what you want to achieve. 
+                        "></textarea>
+                </div>
+
+                <div class="advert_form_div">
+                    <div class="row g-0 pb-4">
+                        <div class="col-md-1 info">
+                            <img src="img/Icon-material-lightbulb-outline.png" alt="...">
+                        </div>
+                        <div class="col-md-10">
+                            <h5>Provide clear briefs</h5>
+                            <p>The clearer the briefs the more talents you will attract.</p>
+                        </div>
+                    </div>
+                    <div class="row g-0 pt-4">
+                        <div class="col-md-1 info">
+                            <img src="img/Icon-material-lightbulb-outline.png" alt="...">
+                        </div>
+                        <div class="col-md-10">
+                            <h5>Tell them about your project</h5>
+                            <p>Is it a press release? Vlog product placement? Instagram posting?</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="advert_form_div">
+                    <h5>Associated website (Optional)</h5>
+                    <input type="text" class="advert_form_input" placeholder="Only shown to talent after they apply.">
+                </div>
+                <div class="advert_form_div">
+                    <h5>Gender Preference</h5>
+                    <input class="gender_input" type="radio" name="gender" value="male" id="#gendermale">
+                    <label class="form-radio-label" for="gendermale"> Male</label>
+                    <input class="gender_input" type="radio" name="gender" value="female" id="#gendermale">
+                    <label class="form-radio-label" for="gendermale"> Female</label>
+                    <input class="gender_input" type="radio" name="gender" value="others" id="#gendermale">
+                    <label class="form-radio-label" for="gendermale">Others</label>
+                </div>
+
+                <!-------------------------------------age---------------------------------  -->
+                <!-------------------------------------age---------------------------------  -->
+                <!-------------------------------------age---------------------------------  -->
+                <!-------------------------------------age---------------------------------  -->
+
+                <div class="advert_form_div">
+                    <h5>Age Range</h5>
+                    <div class="range">
+                        <div id="slider-range"></div>
+                        <p>
+
+                            <input type="text" id="amount" readonly style="border:0; color:#000;">Years old</p>
+                    </div>
+                    <div id="slider-range"></div>
+
+                </div>
+
+
+
+
+                <div class="advert_form_div paybytime ">
+                    <h5>Payment</h5>
+                    <input type="text" placeholder=" &#163; 10">
+                    <select name="time" id="time">
+                        <option value="Hour"> Hour</option>
+                        <option value="Hour"> Project</option>
+                        <option value="Hour"> Weekly</option>
+                        <option value="Hour"> Monthly</option>
+                    </select>
+                </div>
+                <br>
+
+
+                <!-- <div class="advert_form_div">
+                    <h5>Educational Attainment</h5>
+                    <div class="form-check-box">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            <a href=""></a>Master's or Higher degree
+                        </label>
+                    </div>
+                    <div class="form-check-box">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            Bachelor
+                        </label>
+                    </div>
+                    <div class="form-check-box">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            Associate
+                        </label>
+                    </div>
+                    <div class="form-check-box">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            High School
+                        </label>
+                    </div>
+                </div> -->
+
+
+                <div>
+                    <div class="form-check-box">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            I have read and agree to Influencer Hacki's <a href="terms_condition.html">Terms &
+                                Conditions.</a>
+                        </label>
+                    </div>
+                    <div class="form-check-box">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            I allow Influencer Hacki to communicate with me new services and other promotions.
+
+                        </label>
+                    </div>
+                </div>
+
+                <br>
+
+                <div class="advert_form_div">
+                    <a href="thank_you.html"> <button class="btn loc_green w-100 py-3">SUBMIT ADVERT</button></a>
+
+
+                </div>
+            </section>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!---------------------------- footer------------------------ -->
+    <div class="footer">
+        <div class="social_icon">
+            <div class="icotxt">
+                <p>Follow Us</p>
+            </div>
+            <div class="footericon">
+                <a href="#"><i class="fab fa-dribbble icons"></i></a>
+                <a href="#"><i class="fab fa-facebook-f icons"></i></a>
+                <a href="#"><i class="fab fa-twitter icons"></i></a>
+                <a href="#"><i class="fab fa-youtube icons"></i></a>
+            </div>
+        </div>
+
+        <!-- <div class="footertxt">
+            <div class="companytxt">
+                <p>STRATEGIC PARTNERS</p>
+            </div>
+
+            <div class="companies">
+                <a href="#"><img src="img/goldline1.png"></a>
+                <a href="#"><img src="img/aven2.png"></a>
+                <a href="#"><img src="img/kanba3.png"></a>
+                <a href="#"><img src="img/kyan4.png"></a>
+                <a href="#"><img src="img/spotify5.png"></a>
+            </div>
+        </div> -->
+
+        <div class="copyright">
+            <p>&#169; 2021 Influencer Hacki Ltd | <a href="privacy_policy.html">Privacy Policy</a></p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/custom.js"></script>
+
+    <script>
+        $(function () {
+            $("#slider-range").slider({
+                range: true,
+                min: 13,
+                max: 99,
+                values: [25, 35],
+                slide: function (event, ui) {
+                    $("#amount").val("" + ui.values[0] + "-" + ui.values[1]);
+                }
+            });
+            $("#amount").val("" + $("#slider-range").slider("values", 0) +
+                "-" + $("#slider-range").slider("values", 1));
+        });
+    </script>
+</body>
+
+</html>

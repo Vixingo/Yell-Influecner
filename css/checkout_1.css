@@ -1,0 +1,290 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body{
+        background-image: url(../img/backtop.png);
+        background-repeat: no-repeat;
+        background-position: top; 
+        background-color: #f4f4f5 ;
+}
+html{
+    font-size: 62.5%;
+}
+p{
+    font-size: 1.6rem;
+}
+/*------- nav -----------*/
+nav{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.navbar-brand{
+    font-size: 3.5rem;
+    font-weight: bold!important;
+}
+/* ----------Header Title---------- */
+
+.header-title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.headerTitle {
+    font-size: 4rem;
+    margin: 0;
+    font-weight: 700;
+    color: black;
+}
+
+.underline {
+    display: inline-block;
+    width: 8.3%;
+    border-top: 4px solid #FEE405;
+}
+/* -=========== form =========== */
+.customFormContainer form{
+    background-color: #ffffff;
+    border-radius: 25px;
+    padding: 50px 70px;
+}
+.yourOrder{
+    background-color:#f4f4f5 ;
+    -webkit-box-shadow: 0 0 1px 1px #D4D4D4;
+box-shadow: 0 0 1px 1px #D4D4D4;
+}
+
+/* ============Forms============== */
+
+.customFormContainer {
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 172px;
+}
+
+.col {
+    padding: 0;
+}
+
+.registerNow {
+    background-color: #ffffff;
+    border-radius: 25px;
+    padding-top: 200px;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-bottom: 110px;
+}
+
+.regiTitle {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: black;
+}
+
+label{
+    font-size: 1.6rem;
+}
+input{
+    font-size: 2rem !important;
+}
+.lastInputBoxRegNw {
+    margin-bottom: 98px !important;
+}
+.btn.regbutton {
+	font-size: 1.6rem;
+}
+span{
+    font-size: 1.6rem;
+}
+.creditCards {
+    text-transform: uppercase;
+    margin-bottom: 57px;
+}
+
+.cardLogoCon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardLogoEach {
+    height: 24px;
+    margin-bottom: 8px;
+}
+
+.questionLineLogo {
+    height: 22px;
+    margin-bottom: 10px;
+}
+
+.lastInputBoxCredit {
+    margin-bottom: 75px;
+}
+
+.regbutton {
+    background-color: #005267;
+    color: #ffffff;
+    border: 1px solid #005267;
+}
+
+.regbutton:hover {
+    background-color: #ffffff;
+    color: #005267;
+    border: 1px solid #005267;
+}
+
+.or {
+    margin-top: 642px;
+    text-align: center;
+}
+
+.alreadyMem {
+    padding: 0 69px;
+    padding-top: 150px;
+    padding-bottom: 120px;
+}
+
+.alreadyMemText h3 {
+    font-size: 3.8rem;
+    font-weight: 700;
+    color: black;
+}
+
+.alreadyMemText p {
+    margin-bottom: 64px;
+}
+
+.lastInputBoxAlready {
+    margin-bottom: 53px !important;
+}
+
+.yourOrder {
+    padding: 113px 69px;
+    background-color: #F0F9F9;
+    border-radius: 15px;
+}
+
+.orderTitle h3 {
+    font-size: 3.8rem;
+    font-weight: 700;
+    color: black;
+}
+
+.orderText {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #707070;
+    margin-bottom: 35px;
+}
+
+.orderPSpan {
+    display: block;
+}
+
+.orderTotal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.orderTotal p {
+    font-size: 2.4rem ;
+    font-weight: 700;
+    margin-bottom: 60px;
+    color: black;
+}
+
+.orderbutton {
+    background-color: #212126;
+    color: #FFFFFF;
+    border: 1px solid #212126;
+}
+
+.orderbutton:hover {
+    background-color: white !important;
+    color: #212126 i !important;
+    border: 1px solid #212126 !important;
+}
+
+.from-control::placeholder {
+    color: #f4f4f5;
+    opacity: 100%;
+}
+
+
+/*-------------- Responsive-------------- */
+@media (max-width:1200px) {
+   
+}
+
+
+@media (max-width:992px) {
+html{
+    font-size: 50%;
+}
+.col-xl-1 {
+	display: none;
+}
+.customFormContainer form {
+	padding: 50px 50px;
+}
+.col-xl-6 {
+	margin-right: 30px;
+    margin-bottom: 30px;
+}
+}
+@media (max-width:768px) {
+.footernav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footernav ul li {
+    margin-bottom: 15px;
+}
+}
+@media (max-width:576px) {
+
+    .customFormContainer {
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 172px;
+    }
+    .customFormContainer form {
+        padding: 25px;
+    }
+    .yourOrder {
+        padding: 70px 45px;
+        background-color: #F0F9F9;
+        border-radius: 15px;
+    }
+    .header-title-container {
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    .footer1 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0px 25px 0px;
+    flex-direction: column;
+    text-align: center;
+    }
+    .footertxt {
+    margin-bottom: 30px;
+    }
+    .footermail input {
+    width: 300px;
+    }
+    .lastInputBoxCredit {
+        margin-bottom: 10px;
+    }
+    .btn.regbutton {
+        font-size: 2rem;
+    }
+}
+

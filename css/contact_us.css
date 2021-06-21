@@ -1,0 +1,458 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    background-image: url(../img/backtop.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: #F4F4F5;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+/*------- nav -----------*/
+nav{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.navbar-brand{
+    font-size: 3.5rem;
+    font-weight: bold!important;
+}
+.nav-link{
+    font-size: 1.6rem;
+    padding-top: 20px;
+    margin-right: 30px;
+    font-weight: 600;
+}
+.nav-link.act{
+    color: #262626!important;
+}
+
+.nav-item{
+    text-align: center;
+    padding-left: 15px;
+    
+}
+.nav-item button{
+    margin-right: -12px;
+    font-weight: 500;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.nav-item .btn{
+    background-color: #343434;
+    padding: 13px 75px 13px 75px;
+    font-size: 2.1rem;
+    border-radius: 15px;
+    color: #ffffff;
+    border: 1px solid #343434;
+}
+.nav-item .btn:hover{
+    background-color: transparent;
+    color: #343434;
+} 
+
+/*--------------- Middle Section ----------------*/
+.middle {
+	margin-top: 140px;
+}
+.txtform1{
+    padding-bottom: 160px;
+}
+
+.txtform1 h4{
+    font-size: 2.2rem;
+    padding-bottom: 16px;
+    margin-top: 35px;
+}
+
+.txtform1 p{
+    font-size: 2.4rem;
+}
+
+.txtform1 h1{
+    font-size: 4.4rem;
+    margin-top: 30px;
+}
+
+.txtform2{
+    height: 354px;
+}
+
+.txtform2 h3{
+    font-size: 4.4rem;
+    font-weight: 900;
+}
+
+.txtform2 p{
+    font-size: 2.4rem;
+    padding-bottom: 30px;
+}
+
+.txtform2 span{
+    font-size: 2.4rem;
+    color: #005267;
+    text-transform: uppercase;
+}
+
+.txtico{
+    color: #005267;
+}
+
+
+
+.form{
+    margin: 50px;
+}
+
+.col-5{
+    border-radius: 45px;
+    background-color: white;
+}
+
+.form h1 {
+	font-size: 4rem;
+	margin-bottom: 40px;
+}
+
+.form p {
+	font-size: 1.8rem;
+	padding-bottom: 40px;
+	color: #707070;
+}
+
+.label1{
+    font-size: 2.4rem;
+    padding-bottom: 10px;
+}
+
+*:focus{
+    outline: none;
+}
+
+.input1{
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #707070;
+    font-size: 2.5rem;
+    padding: 5px;
+}
+
+.input0{
+    height: 132px;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #707070;
+    font-size: 2.5rem;
+    padding: 5px;
+}
+
+.input2{
+    height: 20px;
+    width: 20px;
+}
+label{
+    display: inline;
+}
+.label2{
+    color: #707070;
+    font-size: 1.8rem;
+    margin-top: 10px;
+    padding-bottom: 30px;
+}
+
+.label2 a{
+    color: #707070;
+}
+
+.submit{
+    height: 66px;
+    width: 100%;
+    font-size: 2.4rem;
+    border-radius: 10px;
+    background-color: #005267;
+    color: white;
+    margin-top: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------POST ADVERT-------- */
+.post_advert{
+    margin-bottom: 100px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.post_advert h2{
+    font-size: 2.4rem;
+    font-weight: 700px;
+}
+
+.post_advert h1{
+    font-size: 4rem;
+    font-weight: 700;
+    margin-top: 35px;
+    margin-bottom: 65px;
+}
+
+.talent .btn{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btn.talent-btn{
+    display: block;
+    margin: 0 auto;
+    margin-top: 70px;
+    padding:  18px 120px;
+    border-radius: 15px;
+    color: #fff; 
+    background-color: #005267; 
+    font-weight: 700; 
+    font-size: 2.2rem;
+}
+
+.talent-btn:hover{
+    background-color:transparent;
+    color: #005267;
+    border: 1px solid #005267;
+}
+
+/* -------------footer---------- */
+
+.footer{
+    background: #F0F9F9;
+}
+.footer1{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0px 25px 0px;
+}
+.footertxt h1{
+    font-size: 3rem;
+    padding: 0px;
+    font-weight: 700;
+}
+.footertxt{
+    padding: 0 20px ;
+    text-align: left;
+}
+.footertxt p{
+    font-weight: 300;
+    font-size: 2.1rem;
+    color: #707070;
+}
+.footermail p{
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: #707070;
+}
+
+.footermail input{
+    font-size: 1.9rem;
+    padding: 10px 0px 10px 20px;
+    width: 430px;
+}
+.footernav a {
+    font-weight: 600;
+}
+.footernav{
+    padding-top: 30px;
+    display: block;
+    margin: 0 auto;
+    display: block;
+}
+
+.footernav ul{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px ;
+    padding-left: 0px;
+}
+
+.footernav ul li{
+    list-style: none;
+}
+
+.footernav ul li a{
+    font-size: 1.5rem;
+    padding: 0px 25px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+.footernav ul li a:hover{
+    text-decoration: underline;
+}
+
+.footertxt2{
+    padding-bottom: 25px;
+    font-size: 1.8rem;
+	font-weight: 600;
+	text-align: center;
+
+}
+
+.footerico{
+    text-align: center;
+}
+
+.icons{
+    text-align: center;
+    width: 40px;
+    padding: 12px 0px;
+    font-size: 1.8rem;
+    background: white;
+    border-radius: 5px;
+    margin: 7px;
+    color: #B0B7C3;
+}
+
+.footercopy{
+    text-align: center;
+    margin: 30px 25px 0px 25px;
+    padding-bottom: 30px;
+}
+.footermail input{
+    border: 1px solid #efefef;
+    border-radius: 5px;
+}
+.footercopy p a{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: #707070;
+    padding: 0 10px;
+}
+
+.footercopy p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #707070;
+} 
+.fa-dribbble:hover{
+    color: #BD225E;
+}
+.fa-facebook-f:hover{
+    color: #4064AC;
+}
+.fa-twitter:hover{
+    color: #009DED;
+}
+.fa-youtube:hover{
+    color: red;
+}
+/*-------------- Responsive-------------- */
+@media (max-width:1200px) {
+    .form p br{
+        display: none;
+    }
+
+}
+
+
+@media (max-width:992px) {
+html{
+    font-size: 50%;
+}
+.col-xl-7{
+    text-align: center;
+}
+}
+@media (max-width:768px) {
+    .nav-item .btn {
+        padding: 4px 50px;
+        margin-left: -35px;
+        margin-top: 10px;
+    }
+
+.footernav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footernav ul li {
+    margin-bottom: 15px;
+}
+}
+@media (max-width:576px) {
+br{
+    display: none;
+}
+body {
+background-size: 134% 11%;
+}
+.footer1 {
+display: flex;
+justify-content: space-evenly;
+padding: 50px 0px 25px 0px;
+flex-direction: column;
+text-align: center;
+}
+.footertxt {
+margin-bottom: 30px;
+}
+.footermail input {
+width: 300px;
+}
+.form {
+	margin: 10px;
+}
+.middle {
+	margin-top: 60px;
+}
+.txtform1 {
+	padding-bottom: 50px;
+}
+.txtform2 {
+	height: 255px;
+}
+.post_advert {
+	margin-bottom: 50px;
+	text-align: center;
+	margin-top: 50px;
+}
+.nav-item .btn {
+    padding: 4px 50px;
+    margin-left: -35px;
+    margin-top: 10px;
+}
+.footertxt {
+	margin-bottom: 30px;
+	text-align: center;
+}
+.btn.talent-btn {
+	margin-top: 50px;
+	padding: 15px 60px;
+}
+
+}
+

@@ -1,0 +1,304 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+:root{
+    --backcolor:#F9F9F9;  
+}
+body{
+    background-color: var(--backcolor);
+}
+html{
+    font-size: 62.5%;
+}
+
+
+/*------- nav -----------*/
+nav{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.navbar-brand{
+    font-size: 3.5rem;
+    font-weight: bold!important;
+}
+.nav-link{
+    font-size: 1.6rem;
+    padding-top: 20px;
+    margin-right: 30px;
+    font-weight: 600;
+}
+.nav-link.act{
+    color: #262626!important;
+}
+
+.nav-item{
+    text-align: center;
+    padding-left: 15px;
+    
+}
+.nav-item button{
+    margin-right: -12px;
+    font-weight: 500;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.nav-item .btn{
+    background-color: #343434;
+    padding: 13px 75px 13px 75px;
+    font-size: 2.1rem;
+    border-radius: 15px;
+    color: #ffffff;
+    border: 1px solid #343434;
+}
+.nav-item .btn:hover{
+    background-color: transparent;
+    color: #343434;
+} 
+
+/*---------terms----------  */
+.terms{
+    margin: 150px 0px 100px 0px;
+}
+.terms .container{
+    padding: 0 100px;
+}
+.terms h1{
+    font-weight: 700;
+    font-size: 4.5rem;
+    padding-bottom: 15px;
+}
+.terms .head_area{
+    text-align: center;
+}
+.terms .head_area p{
+    font-weight: 300;
+    margin-bottom: 100px;
+    color: #707070;
+}
+.terms h2{
+    font-weight: 700;
+    margin-bottom: 50px;
+    font-size: 3.6rem;
+}
+.terms h3{
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.terms .condition p{
+    font-size: 2rem;
+    color: #707070;
+    font-weight: 300;
+}
+li {
+	font-size: 2.2rem;
+	font-weight: 300;
+	color: #707070;
+}
+
+
+
+/* -------------footer---------- */
+
+.footer{
+    background: #F0F9F9;
+}
+.footer1{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0px 25px 0px;
+}
+.footertxt h1{
+    font-size: 3rem;
+    padding: 0px;
+    font-weight: 700;
+}
+.footertxt{
+    padding: 0 20px ;
+    text-align: left;
+}
+.footertxt p{
+    font-weight: 300;
+    font-size: 2.1rem;
+    color: #707070;
+}
+.footermail p{
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: #707070;
+}
+
+.footermail input{
+    font-size: 1.9rem;
+    padding: 10px 0px 10px 20px;
+    width: 430px;
+}
+.footernav a {
+    font-weight: 600;
+}
+.footernav{
+    padding-top: 30px;
+    display: block;
+    margin: 0 auto;
+    display: block;
+}
+
+.footernav ul{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px ;
+    padding-left: 0px;
+}
+
+.footernav ul li{
+    list-style: none;
+}
+
+.footernav ul li a{
+    font-size: 1.5rem;
+    padding: 0px 25px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+.footernav ul li a:hover{
+    text-decoration: underline;
+}
+
+.footertxt2{
+    padding-bottom: 25px;
+    font-size: 1.8rem;
+	font-weight: 600;
+	text-align: center;
+
+}
+
+.footerico{
+    text-align: center;
+}
+
+.icons{
+    text-align: center;
+    width: 40px;
+    padding: 12px 0px;
+    font-size: 1.8rem;
+    background: white;
+    border-radius: 5px;
+    margin: 7px;
+    color: #B0B7C3;
+}
+
+.footercopy{
+    text-align: center;
+    margin: 30px 25px 0px 25px;
+    padding-bottom: 30px;
+}
+.footermail input{
+    border: 1px solid #efefef;
+    border-radius: 5px;
+}
+.footercopy p a{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: #707070;
+    padding: 0 10px;
+}
+
+.footercopy p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #707070;
+} 
+.fa-dribbble:hover{
+    color: #BD225E;
+}
+.fa-facebook-f:hover{
+    color: #4064AC;
+}
+.fa-twitter:hover{
+    color: #009DED;
+}
+.fa-youtube:hover{
+    color: red;
+}
+
+
+
+/*-------------- Responsive-------------- */
+@media (max-width:1200px) {
+   
+}
+
+
+@media (max-width:992px) {
+html{
+    font-size: 50%;
+}
+}
+@media (max-width:768px) {
+    .nav-item .btn {
+        padding: 4px 50px;
+        margin-left: -35px;
+        margin-top: 10px;
+    }
+
+
+.footernav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footernav ul li {
+    margin-bottom: 15px;
+}
+}
+@media (max-width:576px) {
+    .terms .container {
+        padding: 30px;
+    }
+body {
+background-size: 134% 11%;
+}
+.footer1 {
+display: flex;
+justify-content: space-evenly;
+padding: 50px 0px 25px 0px;
+flex-direction: column;
+text-align: center;
+}
+.footertxt {
+margin-bottom: 30px;
+text-align: center;
+}
+.footer br{
+    display: none;
+}
+.footermail input {
+width: 300px;
+}
+.terms {
+	margin: 60px 0px 100px 0px;
+}
+.terms .condition p {
+	font-size: 2rem;
+	color: #707070;
+	font-weight: 300;
+	text-align: justify;
+	text-justify: inter-word;
+}
+.nav-item .btn {
+    padding: 4px 50px;
+    margin-left: -35px;
+    margin-top: 10px;
+}
+.terms .head_area p {
+	font-weight: 300;
+	margin-bottom: 50px;
+	color: #707070;
+}
+
+
+}
+

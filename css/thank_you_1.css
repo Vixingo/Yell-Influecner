@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+body{
+    background-color: #F0F9F9;
+}
+html{
+    font-size: 62.5%;
+}
+
+/*------- nav -----------*/
+nav{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.navbar-brand{
+    font-size: 3.5rem;
+    font-weight: bold!important;
+}
+.nav-link{
+    font-size: 1.6rem;
+    padding-top: 20px;
+    margin-right: 30px;
+    font-weight: 600;
+}
+.nav-link.act{
+    color: #262626!important;
+}
+
+.nav-item{
+    text-align: center;
+    padding-left: 15px;
+    
+}
+.nav-item button{
+    margin-right: -12px;
+    font-weight: 500;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.nav-item .btn{
+    background-color: #343434;
+    padding: 13px 75px 13px 75px;
+    font-size: 2.1rem;
+    border-radius: 15px;
+    color: #ffffff;
+    border: 1px solid #343434;
+}
+.nav-item .btn:hover{
+    background-color: transparent;
+    color: #343434;
+} 
+
+/* ------------thank_you_--------- */
+.thank_you{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 70px;
+}
+.thank_you h1 {
+	font-weight: 700;
+	font-size: 5.5rem;
+	margin-bottom: 50px;
+}
+.btn.talent-btn{
+    display: block;
+    margin: 0 auto;
+    margin-top: 85px;
+    padding:  18px 55px;
+    border-radius: 15px;
+    color: #fff; 
+    background-color: #005267; 
+    font-weight: 700; 
+    font-size: 2.2rem;
+}
+.talent-btn:hover{
+    background-color:transparent;
+    color: #005267;
+    border: 1px solid #005267;
+}
+
+.thank_you h1{
+    font-weight: 700;
+    font-size: 5.5rem;
+}
+.thank_you p{
+    font-weight: 300;
+    font-size: 2rem;
+    opacity: 70%;
+}
+.thank_you p a{
+    color: #808080;
+}
+.footercopy p{
+    font-size: 1.9rem;
+    color: #707070;
+} 
+.footercopy{
+    text-align: center;
+    margin: 30px 25px 0px 25px;
+    padding-bottom: 30px;
+}
+.footercopy p a{
+    font-size: 1.9rem;
+    text-decoration: none;
+    color: #707070;
+    padding: 0 10px;
+}
+
+
+/*-------------- Responsive-------------- */
+@media (max-width:1200px) {
+
+}
+
+@media (max-width:992px) {
+html{
+    font-size: 50%;
+}
+}
+@media (max-width:768px) {
+    .nav-item .btn {
+        padding: 4px 50px;
+        margin-left: -35px;
+        margin-top: 10px;
+    }
+
+
+.footernav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footernav ul li {
+    margin-bottom: 15px;
+}
+}
+@media (max-width:576px) {
+    .thank_you h1 {
+        font-weight: 700;
+        font-size: 4.5rem;
+    }
+    .thank_you p {
+        font-weight: 300;
+        font-size: 1.6rem;
+        opacity: 70%;
+    }
+    .btn.talent-btn {
+        margin-top: 55px;
+        padding: 8px 30px;
+    }
+    .thank_you {
+        text-align: center;
+        margin-top: 90px;
+        margin-bottom: 70px;
+    }
+    .footercopy p {
+        font-size: 1.6rem;
+        color: #707070;
+    }
+    .footercopy p a {
+        font-size: 1.6rem;
+    }
+.footer1 {
+display: flex;
+justify-content: space-evenly;
+padding: 50px 0px 25px 0px;
+flex-direction: column;
+text-align: center;
+}
+.footertxt {
+margin-bottom: 30px;
+}
+.footermail input {
+width: 300px;
+}
+.nav-item .btn {
+    padding: 4px 50px;
+    margin-left: -35px;
+    margin-top: 10px;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+

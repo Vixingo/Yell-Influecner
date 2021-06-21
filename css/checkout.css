@@ -1,0 +1,407 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+body{
+    background-color: #f4f4f5;
+    /* margin-top: 20px; */
+    color: #707070;
+}
+
+.fullPageWrapper {
+    background-image: url(img/backtop.png);
+    background-repeat: no-repeat;
+    background-position:top; 
+}
+.extraa{
+    text-decoration: none;
+    color: #ffffff;
+    transition: .2s;
+}
+.extraa:hover{
+    color: #000;
+}
+html{
+    font-size: 62.5%;
+}
+/* ============customHeader========== */
+.customHeader {
+    width: 100%;
+}
+
+/*------- nav -----------*/
+nav{
+    padding-top: 20px !important;
+    margin-bottom: 60px;
+}
+.navbar-brand{
+    font-size: 3.5rem;
+    font-weight: bold!important;
+}
+
+
+/* ----------Header Title---------- */
+
+.header-title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 75px;
+}
+
+.headerTitle {
+    margin: 0;
+    font-weight: 700;
+    color: black;
+    font-size: 3.5rem;
+}
+
+.underline {
+    display: inline-block;
+    width: 8.3%;
+    border-top: 4px solid #FEE405;
+}
+
+/* ============Forms============== */
+
+.customFormContainer {
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 172px;
+}
+
+.col {
+    padding: 0;
+}
+
+.registerNow {
+    background-color: #ffffff;
+    border-radius: 25px;
+    padding: 100px;
+}
+
+.regiTitle {
+    font-size: 3rem ;
+    font-weight: 700;
+    color: black;
+}
+
+label , select, option, input, span, p , button {
+    font-size: 1.6rem !important;
+}
+
+
+.lastInputBoxRegNw {
+    margin-bottom: 98px !important;
+}
+
+.creditCards {
+    text-transform: uppercase;
+    margin-bottom: 57px;
+}
+
+.cardLogoCon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardLogoEach {
+    height: 24px;
+    margin-bottom: 8px;
+}
+
+.questionLineLogo {
+    height: 22px;
+    margin-bottom: 10px;
+}
+
+.lastInputBoxCredit {
+    margin-bottom: 75px;
+}
+
+.regbutton {
+    background-color: #005267;
+    color: #ffffff;
+    border: 1px solid #005267;
+}
+
+.regbutton:hover {
+    background-color: #ffffff;
+    color: #005267;
+    border: 1px solid #005267;
+}
+
+.or {
+    margin-top: 642px;
+    text-align: center;
+}
+
+.alreadyMem {
+    padding: 0 69px;
+    padding-top: 150px;
+    padding-bottom: 120px;
+}
+
+.alreadyMemText h3 {
+    font-size: 38.4px;
+    font-weight: 700;
+    color: black;
+}
+
+.alreadyMemText p {
+    margin-bottom: 64px;
+}
+
+.lastInputBoxAlready {
+    margin-bottom: 53px !important;
+}
+
+.yourOrder {
+    padding: 113px 69px;
+    background-color: #F0F9F9;
+    border-radius: 15px;
+}
+
+.orderTitle h3 {
+    font-size: 38.4px;
+    font-weight: 700;
+    color: black;
+}
+
+.orderText {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #707070;
+    margin-bottom: 35px;
+}
+
+.orderPSpan {
+    display: block;
+}
+
+.orderTotal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.orderTotal p {
+    font-size: 22.4px !important;
+    font-weight: 700;
+    margin-bottom: 60px !important;
+    color: black;
+}
+
+.orderbutton {
+    background-color: #212126;
+    color: #FFFFFF;
+    border: 1px solid #212126;
+}
+
+.orderbutton:hover {
+    background-color: white !important;
+    color: #212126 i !important;
+    border: 1px solid #212126 !important;
+}
+
+.from-control::placeholder {
+    color: #f4f4f5;
+    opacity: 100%;
+}
+
+/* -------------footer---------- */
+
+.footer{
+    background: #F0F9F9;
+}
+.footer1{
+    display: flex;
+    padding: 100px 20px 50px 0;
+    justify-content: space-between;
+}
+.footertxt h1{
+    padding-bottom: 10px;
+    font-weight: 700;
+    color: black;
+}
+.footertxt{
+    padding: 0 20px ;
+    text-align: left;
+}
+.footertxt2 p {
+    color: black;
+}
+.footertxt p{
+    font-weight: 300;
+    font-size: 26px;
+    color: #707070;
+}
+.footermail p{
+    font-size: 23px;
+    font-weight: 300;
+    color: #707070;
+}
+
+.footermail input{
+    font-size: 20px;
+    padding: 15px 0px 15px 20px;
+    width: 430px;
+}
+.footernav a {
+    font-weight: 600;
+}
+.footertxt2 {
+    font-weight: 600;
+}
+.footernav{
+    padding-top: 30px;
+    display: block;
+    margin: 0 auto;
+    display: block;
+}
+
+.footernav ul{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 75px;
+    padding-left: 0px;
+}
+
+.footernav ul li{
+    list-style: none;
+}
+
+.footernav ul li a{
+    font-size: 17px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+.footernav ul li a:hover{
+    text-decoration: underline;
+}
+
+.footertxt2{
+    padding-bottom: 25px;
+    font-size: 21px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.footerico{
+    text-align: center;
+}
+
+.icons{
+    text-align: center;
+    font-size: 21px;
+    width: 51px;
+    padding: 15px 0px;
+    background: white;
+    border-radius: 5px;
+    margin: 7px;
+    color: #B0B7C3;
+}
+
+.footercopy{
+    text-align: center;
+    margin: 30px 25px 0px 25px;
+    padding-bottom: 30px;
+}
+.footermail input{
+    border: 1px solid #efefef;
+    border-radius: 5px;
+}
+.footercopy p a{
+    font-size: 19px;
+    text-decoration: none;
+    color: #707070;
+    padding: 0 10px;
+}
+
+.footercopy p{
+    font-size: 19px;
+    color: #707070;
+} 
+.fa-dribbble:hover{
+    color: #BD225E;
+}
+.fa-facebook-f:hover{
+    color: #4064AC;
+}
+.fa-twitter:hover{
+    color: #009DED;
+}
+.fa-youtube:hover{
+    color: red;
+}
+
+/*-------------- Responsive-------------- */
+/*-------------- Responsive-------------- */
+@media (max-width:1200px) {
+   
+}
+
+
+@media (max-width:992px) {
+html{
+    font-size: 50%;
+}
+}
+@media (max-width:768px) {
+.footernav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footernav ul li {
+    margin-bottom: 15px;
+}
+}
+@media (max-width:576px) {
+
+    .registerNow {
+        background-color: #ffffff;
+        border-radius: 25px;
+        padding: 30px;
+    }
+    .alreadyMem {
+        padding: 30px;
+        padding-top: 110px;
+        padding-bottom: 70px;
+    }
+    .yourOrder {
+        padding: 50px 20px;
+        background-color: #F0F9F9;
+        border-radius: 15px;
+    }
+body {
+background-size: 134% 11%;
+}
+.footer1 {
+display: flex;
+justify-content: space-evenly;
+padding: 50px 0px 25px 0px;
+flex-direction: column;
+text-align: center;
+}
+.footertxt {
+margin-bottom: 30px;
+}
+.footermail input {
+width: 300px;
+}
+.header-title-container {
+	margin-bottom: 30px;
+}
+.lastInputBoxCredit {
+	margin-bottom: 30px;
+}
+.alreadyMemText p {
+	margin-bottom: 25px;
+}
+.lastInputBoxRegNw {
+	margin-bottom: 70px !important;
+}
+}
+

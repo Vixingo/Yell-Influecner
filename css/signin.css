@@ -1,0 +1,224 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+        background-image: url(img/backtop.png);
+        background-repeat: no-repeat;
+        background-position: top; 
+        background-color: #f4f4f5 ;
+}
+/*------- nav -----------*/
+nav{
+    margin-top: 20px;
+}
+h1{
+    font-size: 3.5rem;
+}
+p{
+    font-size: 1.6rem;
+}
+.navbar-brand{
+    font-size: 3.5rem;
+    font-weight: bold!important;
+}
+.act{
+    font-weight: 700;
+}
+a{
+    font-size: 1.6rem;
+}
+input{
+    font-size: 1.6rem;
+}
+/* ============form============= */
+
+.form_div form{
+    padding: 90px 90px 50px 90px;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 600px;
+    background-color: #ffffff;
+}
+.form_div form h1{
+    font-weight: 700;
+}
+.form_div form p{
+    font-weight: 300;
+    opacity: 70%;
+}
+.form_div form h3{
+    font-weight: 700;
+    color: #005267;
+}
+.form_div form h5{
+    opacity: 70%;
+}
+.form_div form textarea{
+    width: 100%;
+    resize: none;
+    border: 1px solid #bfbfbf;
+    border-radius: 20px;
+    padding: 15px 10px ;
+    
+}
+
+
+.form_div form .boxinput{
+    width: 100%;
+    border: 1px solid #bfbfbf;
+    border-radius: 10px;
+    padding: 8px 10px ;
+    
+}
+
+a{
+    color:#707070;
+}
+
+.talent .btn{
+    
+    border-radius: 10px;
+}
+.btn.talent-btn{
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding:  10px 55px;
+    border-radius: 15px;
+    color: #fff; 
+    background-color: #005267; 
+    font-weight: 300; 
+    font-size: 2.2rem;
+    width: 100%;
+}
+.talent-btn:hover{
+    background-color:transparent;
+    color: #005267;
+    border: 1px solid #005267;
+}
+.fa-arrow-right{
+    color: #005267;
+}
+
+.content1{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.content1 a{
+    text-decoration: none ;
+    color: black;
+    transition: .2s;
+}
+.content1 a:hover{
+    color: #005267;
+    letter-spacing: 1px;
+}
+.ner:hover{
+    color: #005267;
+    letter-spacing: 1px;
+}
+
+
+/*------------------- Footer ----------------------*/
+
+
+.copyright{
+    margin: 50px;
+    text-align: center;
+}
+
+.copyright p{
+    font-size: 1.6rem;
+    
+    color: #707070;
+}
+
+.copyright p a{
+    color: #707070;
+}
+
+/*-------------- Responsive-------------- */
+@media (min-width:1200px) and (max-width:1400px) {
+    .col-xl-1 h5{
+        display: none;
+    } 
+}
+@media (max-width:1200px) {
+    .col-xl-1 h5{
+        display: none;
+    } 
+}
+
+
+@media (max-width:992px) {
+    .col-xl-5 {
+        margin-top: 50px;
+        
+    }
+    .ner{
+        margin-bottom: 20px;
+        justify-content: space-around !important;
+    }
+    .col-xl-5 p{
+        text-align: center;
+    }
+
+html{
+    font-size: 50%;
+}
+.nav-link.act {
+	text-align: right;
+}
+}
+@media (max-width:768px) {
+    .nav-item .btn {
+        padding: 4px 50px;
+        margin-left: -35px;
+        margin-top: 10px;
+    }
+
+
+    .form_div form {
+        padding: 90px 90px 50px 90px;
+        width: 100%;
+    }
+.footernav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footernav ul li {
+    margin-bottom: 15px;
+}
+}
+@media (max-width:576px) {
+    .form_div form {
+        padding: 30px;
+        width: 100%;
+        margin-top: 60px;
+    }
+body {
+background-size: 134% 11%;
+}
+.footer1 {
+display: flex;
+justify-content: space-evenly;
+padding: 50px 0px 25px 0px;
+flex-direction: column;
+text-align: center;
+}
+.footertxt {
+margin-bottom: 30px;
+}
+.footermail input {
+width: 300px;
+}
+}
+
+

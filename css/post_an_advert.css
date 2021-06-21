@@ -1,0 +1,460 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    background-image: url(../img/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+a{
+    color: #707070;
+}
+
+/*------- nav -----------*/
+nav{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.navbar-brand{
+    font-size: 3.5rem;
+    font-weight: bold!important;
+}
+.nav-link{
+    font-size: 1.6rem;
+    padding-top: 20px;
+    margin-right: 30px;
+    font-weight: 600;
+}
+.nav-link.act{
+    color: #262626!important;
+}
+
+.nav-item{
+    text-align: center;
+    padding-left: 15px;
+    
+}
+.nav-item button{
+    margin-right: -12px;
+    font-weight: 500;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.nav-item .btn{
+    background-color: #343434;
+    padding: 13px 75px 13px 75px;
+    font-size: 2.1rem;
+    border-radius: 15px;
+    color: #ffffff;
+    border: 1px solid #343434;
+}
+.nav-item .btn:hover{
+    background-color: transparent;
+    color: #343434;
+} 
+
+/* Testing CSS */
+.hero-text {
+    margin-top: 20rem;
+}
+
+.hero-text h1 {
+    font-size: 6rem;
+    font-weight: 700;
+}
+
+.hero-text p {
+    padding-top: 2rem;
+    font-size: 2rem;
+    opacity: 70%;
+}
+
+.hero-text span {
+    border-bottom: 5px solid #FEE405;
+}
+
+.advert_details .container {
+    margin-top: 90px;
+    background-color: #fff;
+    padding: 100px 90px;
+    border-radius: 50px;
+    -webkit-box-shadow: 1px 1px 5px 1px #DBDBDB;
+    box-shadow: 1px 1px 5px 1px #DBDBDB;
+}
+
+.advert_details .container h4 {
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.advert_details .container p {
+    font-size: 2rem;
+    opacity: 70%;
+}
+
+.advert_form h5 {
+    margin-bottom: 30px;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 400;
+
+}
+
+.advert_form_div {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.change {
+    color: #707070;
+	word-wrap: normal;
+	appearance: none;
+	border: none;
+	text-decoration: underline;
+}
+.advert_form_input {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #707070;
+    border-radius: 10px;
+    opacity: 40%;
+    font-size: 2.4rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.advert_form textarea {
+    width: 100%;
+    border: 1px solid #707070;
+    border-radius: 10px;
+    opacity: 40%;
+    font-size: 2.4rem;
+    padding: 30px;
+    margin-top: 10px;
+    resize: none ;
+    overflow: hidden;
+}
+
+.advert_form .loc_gray {
+    color: #18181B;
+    cursor: pointer;
+    margin: 10px 5px;
+    font-size: 2rem;
+    background-color: #eeeeee;
+    color: #18181B;
+    padding: 5px 35px;
+    border: none;
+    border-radius: 25px;
+    opacity: 70%;
+}
+
+.advert_form .loc_green {
+    cursor: pointer;
+    margin: 10px 5px;
+    font-size: 2rem;
+    background-color: #005267;
+    color: #fff;
+    padding: 5px 35px;
+    border: none;
+    border-radius: 10px;
+    transition: .2s;
+}
+.advert_form .loc_green:hover{
+    color: #005267;
+    background-color: #fff;
+    border: 1px solid #005267;
+}
+.form_check {
+    margin: 10px;
+}
+.form_check select{
+    font-size: 2.5rem;
+    margin-top: 5px;
+    border: none;
+    border-bottom: 1px solid #cccccc;
+}
+.form_check option{
+    font-size: 2rem;
+}
+.gender_input{
+    margin: 10px;
+    
+}
+.info {
+    max-width: 50px;
+}
+.form-check-box{
+height: 50px;
+width: 100%;
+padding-left: 10px;
+}
+.form-check-input, .form-check-label{
+    font-size: 25px;
+    margin-right: 10px;
+}
+.form-radio-label{
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+
+.paybytime input{
+    height: 44px;
+    width: 95px;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #707070;
+    opacity: 70%;
+    border-radius: 10px;
+}
+.paybytime select{
+    height: 44px;
+    width: 120px;
+    margin-left: 20px;
+    padding: 0 10px 0 10px ;
+    font-size: 18px;
+    border: 1px solid #707070;
+    opacity: 70%;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+/*------------------- Footer ----------------------*/
+
+.footer{
+    background-image: url(../img/bottompic.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.social_icon{
+    padding-top: 30rem;
+}
+
+.icotxt p{
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 1rem;
+}
+
+.icotxt{
+    text-align: center;
+}
+
+.footericon{
+    text-align: center;
+    padding-bottom: 10rem;
+}
+
+.icons{
+    text-align: center;
+    font-size: 21px;
+    width: 51px;
+    padding: 15px 0px;
+    background: white;
+    border-radius: 5px;
+    margin: 7px;
+    color: #B0B7C3;
+}
+
+.companytxt p{
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+.companies{
+    text-align: center;
+}
+
+.companies a img{
+    padding: 0 3rem 14rem 3rem;
+}
+
+.copyright{
+    text-align: center;
+}
+
+.copyright p{
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+    color: #707070;
+    
+}
+p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.copyright p a{
+    color: #707070;
+}
+ .ui-slider-horizontal, .ui-widget-content {
+	height: 3px;
+	background: #F3F3F3 !important;
+	border: 0 !important;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+	border: 1px solid #D4DBDA;
+	background: #E8F1F0;
+	color: #454545;
+	border-radius: 50%;
+	box-shadow: 0px 2px 5px 0px #ddd;
+	height: 20px !important;
+	width: 20px !important;
+	top: -10px !important;
+}
+.ui-slider .ui-slider-range {
+	background: #005165;
+}
+#slider-range {
+	width: 70%;
+	height: 2px;
+}
+    #amount {
+	width: 80px;
+    font-size: 18px;
+    font-weight: 200;
+}
+.range {
+	width: 709px;
+	display: flex;
+	align-items: center;
+}
+.range p {
+	width: 23%;
+	margin: 0;
+	font-size: 18px;
+	font-weight: 200;
+	margin-left: 14px;
+}
+
+.fa-dribbble:hover{
+    color: #BD225E;
+}
+.fa-facebook-f:hover{
+    color: #4064AC;
+}
+.fa-twitter:hover{
+    color: #009DED;
+}
+.fa-youtube:hover{
+    color: red;
+}
+/*-------------- Responsive-------------- */
+
+
+@media (max-width:992px) {
+html{
+    font-size: 50%;
+}
+.advert_details  h5{
+    font-size: 2rem;
+}
+.advert_details label{
+    font-size: 1.8rem;
+}
+.form-check-input, .form-check-label {
+	font-size: 16px;
+}
+.advert_form textarea {
+	font-size: 1.8rem;
+}
+.companies a img {
+	padding: 0 3rem 6rem 3rem;
+}
+.copyright p {
+	margin-top: 100px;
+}
+}
+@media (max-width:768px) {
+    .nav-item .btn {
+        padding: 4px 50px;
+        margin-left: -35px;
+        margin-top: 10px;
+    }
+
+
+    label {
+        display: inline; 
+    }
+    .hero-text {
+        margin-top: 10rem;
+    }
+    .range {
+        width: 100%;
+
+    }
+    .form-check-box {
+        height: 70px;
+        width: 100%;
+        padding-left: 10px;
+    }
+
+
+.footernav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footernav ul li {
+    margin-bottom: 15px;
+}
+}
+@media (max-width:576px) {
+    .advert_details .container {
+        padding: 60px 40px;
+    }
+    br{
+        display: none;
+    }
+body {
+background-size: 134% 11%;
+}
+.footer1 {
+display: flex;
+justify-content: space-evenly;
+padding: 50px 0px 25px 0px;
+flex-direction: column;
+text-align: center;
+}
+.footertxt {
+margin-bottom: 30px;
+}
+.footermail input {
+width: 300px;
+}
+.form-check-box {
+	height: 75px; 
+	width: 100%; 
+}
+label{
+    font-size: 1rem;
+}
+.gender_input {
+	margin: 0px; 
+}
+.companies a img {
+	padding: 0 3rem 6rem 3rem;
+	width: 40%;
+}
+.nav-item .btn {
+    padding: 4px 50px;
+    margin-left: -35px;
+    margin-top: 10px;
+}
+
+
+}
+

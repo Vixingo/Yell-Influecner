@@ -1,0 +1,669 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+body{
+    background-image: url(../img/backtop.png);
+    background-repeat: no-repeat;
+    background-position: top; 
+}
+.extraa{
+    text-decoration: none;
+}
+html{
+    font-size: 62.5%;
+}
+
+
+/*------- nav -----------*/
+nav{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.navbar-brand{
+    font-size: 3.5rem;
+    font-weight: bold!important;
+}
+.nav-link{
+    font-size: 1.6rem;
+    padding-top: 20px;
+    margin-right: 30px;
+    font-weight: 600;
+}
+.nav-link.act{
+    color: #262626!important;
+}
+
+.nav-item{
+    text-align: center;
+    padding-left: 15px;
+    
+}
+.nav-item button{
+    margin-right: -12px;
+    font-weight: 500;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.nav-item .btn{
+    background-color: #343434;
+    padding: 13px 75px 13px 75px;
+    font-size: 2.1rem;
+    border-radius: 15px;
+    color: #ffffff;
+    border: 1px solid #343434;
+}
+.nav-item .btn:hover{
+    background-color: transparent;
+    color: #343434;
+} 
+/* ---------hero------------ */
+.hero{
+    padding-top: 75px;
+}
+.hero-left p{
+    margin-top: 22px;
+    margin-bottom: 55px;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.hero-left{
+    padding-top: 95px;
+}
+.hero-left h2{
+    font-weight: 700;
+    font-size: 4.4rem; 
+    line-height: 1.5;
+}
+.hero-left button{
+    margin: 10px 30px 10px 0px;
+}
+.heromain{
+    margin-bottom: 150px;
+}
+.hero-right img{
+    cursor: pointer;
+    width: 670px;
+}
+.hero-left .btn1{
+    background-color: #005267;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 15px;
+    font-size: 2rem;
+    padding: 18px 30px 18px 30px;
+}
+.hero-left .btn1:hover{
+    background-color: transparent;
+    color: #005267;
+    border: 1px solid #005267;
+}
+/* .hero-left .btn2{
+    color: #fff; 
+    background-color: #17a3a4; 
+    font-weight: 700;
+    border-radius: 15px;
+    font-size: 22px;
+    padding: 17px 30px 17px 30px;
+}
+.hero-left .btn2:hover{
+    background-color: transparent;
+    color: #17a3a4;
+    border: 1px solid #17a3a4;
+} */
+
+/* --------------with-us------------ */
+.with-us p{
+    color: #737373; 
+    font-weight: 600; 
+
+}
+.company ul{
+    list-style-type: none;
+    margin-bottom: 150px;
+
+}
+.company ul li{
+    margin: 20px;
+    width: 10%;
+}
+.company ul li img{
+        width: 100%;
+        filter: grayscale(100%);
+}
+/* ----------portfolio------------- */
+
+port-img {
+    height:486px;
+    padding-right: 50px;
+}
+.port-text h2{
+    font-size: 3.3rem;
+    font-weight: 700;
+}
+.port-text a{
+    color: black;
+    font-size: 2rem;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 4px solid #FEE405;
+    transition: .2s;
+}
+
+.port-text p{
+    font-size: 2.1rem;
+    color: #808080;
+    font-weight: 400;
+}
+
+.port1{
+    padding-bottom: 200px;
+    padding-left: 30px;
+}
+.port1{
+    background-image: url(../img/Rectangle20191.png);
+    background-repeat: no-repeat;
+    background-position: 90% 50px;
+    background-size: 550px 390px;
+} 
+
+.port2{
+    padding-top: 50px;
+    padding-bottom: 150px;
+    background-size: 550px 430px;
+}
+.port-text.fix{
+    padding-right: 50px;
+}
+.port-img img{
+    width: 550px;
+}
+.port2.port-img img{
+    width: 550px;
+    height:526px;
+}
+.port2{
+    background-image: url(../img/Rectangle20191.png);
+    background-repeat: no-repeat;
+    background-position: top left 50px;
+} 
+
+/* --------promo--------- */
+.promomain{
+    padding-top: 290px;
+    padding-bottom: 145px;
+    background-image: url(../img/path-1600.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.promomain h2{
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.promomain p{
+    text-align: center;
+    font-size: 2.1rem;
+    padding-bottom: 30px;
+    font-weight: 400;
+    color: #737373;
+}
+.promo-video{
+    text-align: center;
+    position: relative;
+}
+.promo-video .thum{
+    position: relative;
+    align-items: center;
+    width: 980px;
+}
+.promo-video .promo-click{
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+}
+.port-a:hover{
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    transition: .2s;
+    transition-timing-function: ease-out;
+}
+/* -------Talent---------- */
+
+.talent-section{
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.talent-box{
+    justify-content: center;
+}
+.talent-text h2{
+    text-align: center;
+    font-size: 3.3rem;
+    font-weight: 700; 
+    margin-bottom: 22px;
+}
+.talent-text p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2.2rem;
+    font-weight: 300;
+    color: #737373;
+    margin-bottom: 100px;
+}
+.fa-check-circle{
+    font-size: 1.3rem;
+    color: #ff6138;
+}
+.card-title{
+    font-weight: 600;
+}
+.card{
+    width: 288px;
+    margin: 0px 32px;
+    border-radius: 15px;
+    -webkit-box-shadow: 1px 1px 15px 0.5px #ADADAD;
+box-shadow: 1px 1px 15px 0.5px #ADADAD;
+}
+.card:hover{
+    -webkit-box-shadow: 0 20px 30px 10px #8F8F8F;
+    box-shadow: 0 20px 30px 10px #8F8F8F;
+transition: 0.3s;
+}
+.card-title{
+    font-size: 2rem;
+}
+.icondiv i{
+    margin-top: 5px;
+    font-size: 1.3rem;
+    color: #F0B92A;
+}
+
+.icondiv p{
+    margin-left: 6px;
+    color: #F0B92A;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 1.5rem;
+}
+
+.icondiv2 {
+    color: #a6a6a6;
+    text-align: center;
+
+}
+.icondiv2 i{
+  font-size: 2rem;
+}
+.card-text {
+    margin-bottom: 30px;
+    font-weight: 300;
+    font-size: 1.5rem;
+} 
+
+.talent .btn{
+    padding: 10px;
+    border-radius: 10px;
+}
+.btn.talent-btn{
+    display: block;
+    margin: 0 auto;
+    margin-top: 70px;
+    border-radius: 15px;
+    color: #fff; 
+    background-color: #005267; 
+    font-weight: 700; 
+    font-size: 1.8rem;
+    padding:  12px 45px;
+}
+.talent-btn:hover{
+    background-color:transparent;
+    color: #005267;
+    border: 1px solid #005267;
+}
+.card{
+    position: relative;
+}
+.fa-plus-circle{
+    position: absolute;
+    top: 4%;
+    font-size: 2.7rem;
+    left: 84%;
+    color: #fff;
+}
+.card span{
+    font-size: 1.6rem;
+}
+.card-body.m-2 {
+	padding-bottom: 20px;
+}
+/* -------------footer---------- */
+
+.footer{
+    background: #F0F9F9;
+}
+.footer1{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0px 25px 0px;
+}
+.footertxt h1{
+    font-size: 3rem;
+    padding: 0px;
+    font-weight: 700;
+}
+.footertxt{
+    padding: 0 20px ;
+    text-align: left;
+}
+.footertxt p{
+    font-weight: 300;
+    font-size: 2.1rem;
+    color: #707070;
+}
+.footermail p{
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: #707070;
+}
+
+.footermail input{
+    font-size: 1.9rem;
+    padding: 10px 0px 10px 20px;
+    width: 430px;
+}
+.footernav a {
+    font-weight: 600;
+}
+.footernav{
+    padding-top: 30px;
+    display: block;
+    margin: 0 auto;
+    display: block;
+}
+
+.footernav ul{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px ;
+    padding-left: 0px;
+}
+
+.footernav ul li{
+    list-style: none;
+}
+
+.footernav ul li a{
+    font-size: 1.5rem;
+    padding: 0px 25px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+.footernav ul li a:hover{
+    text-decoration: underline;
+}
+
+.footertxt2{
+    padding-bottom: 25px;
+    font-size: 1.8rem;
+	font-weight: 600;
+	text-align: center;
+
+}
+
+.footerico{
+    text-align: center;
+}
+
+.icons{
+    text-align: center;
+    width: 40px;
+    padding: 12px 0px;
+    font-size: 1.8rem;
+    background: white;
+    border-radius: 5px;
+    margin: 7px;
+    color: #B0B7C3;
+}
+
+.footercopy{
+    text-align: center;
+    margin: 30px 25px 0px 25px;
+    padding-bottom: 30px;
+}
+.footermail input{
+    border: 1px solid #efefef;
+    border-radius: 5px;
+}
+.footercopy p a{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: #707070;
+    padding: 0 10px;
+}
+
+.footercopy p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #707070;
+} 
+.fa-dribbble:hover{
+    color: #BD225E;
+}
+.fa-facebook-f:hover{
+    color: #4064AC;
+}
+.fa-twitter:hover{
+    color: #009DED;
+}
+.fa-youtube:hover{
+    color: red;
+}
+/*-------------- Responsive-------------- */
+@media (max-width:1200px) {
+    .hero-left br{
+        display: none;
+    }
+    .promo-click { 
+        left: 38%;      
+    }
+    .promo-video .thum {
+
+        width: 900px;
+        display: block;
+        margin: 0 auto;
+    }
+    .hero-left button {
+        margin: 10px 8px 10px 0px;
+    }
+    .hero-left .btn1 {
+        padding: 18px 20px 18px 20px;
+    }
+}
+
+@media (max-width:992px) {
+    html{
+        font-size: 50%;
+    }
+    .hero-right img {
+        width: 400px;
+    }
+    .port-img img {
+        width: 450px;
+    }
+    .port1 {
+        background-image: url(../img/Rectangle20191.png);
+        background-repeat: no-repeat;
+        background-position: 90% 50px;
+        background-size: 450px 310px;
+    }
+    .port2 {
+        background-image: url(../img/Rectangle20191.png);
+        background-repeat: no-repeat;
+        background-position: top left 50px;
+        background-size: 450px 360px;
+    }
+    .promo-video .thum {
+        width: 800px;
+    }
+    .promo-video .promo-click {
+        width: 15%;
+    }
+}
+@media (max-width:768px) {
+    .nav-item .btn {
+        padding: 4px 50px;
+        margin-left: -35px;
+        margin-top: 10px;
+    }
+
+
+    body {
+        background-size: 100% 8%;
+    }
+
+    .hero-left .btn1 {
+        padding: 10px 11px;
+    }
+    .hero-left button {
+        margin: 10px 10px 10px 0px;
+    }
+    .hero-right img {
+        width: 360px;
+    }
+    br{
+        display: none;
+    }
+    .hero {
+        padding-top: 0;
+    }
+    .promo-video .thum {
+        width: 650px;
+    }
+    .port-img img {
+        width: 360px;
+    }
+    .port1 {
+	background-size: 360px 260px;
+	flex-direction: column-reverse;
+	align-items: center;
+    }
+    .port1 {
+	background-position: 40% 50px;
+    text-align: center;
+    padding-bottom: 100px;
+    }
+    .port2 {
+    background-size: 350px 300px;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    }
+    .port-text.fix {
+        padding-right: 50px;
+        text-align: center;
+    }
+    .talent-box {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        margin-bottom: 25px;
+    }
+    .footernav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footernav ul li {
+        margin-bottom: 15px;
+    }
+}
+@media (max-width:576px) {
+    
+    body {
+        background-size: 332% 12%;
+    }
+    .heromain {
+        margin-bottom: 100px;
+    }
+    .hero {
+    padding-top: 0;
+    flex-direction: column-reverse;
+    align-items: center;
+    }
+    .hero-left {
+	padding-top: 20px;
+    text-align: center;
+    }
+    .port1 {
+        padding-left: 0;
+    }
+    .port-text.fix {
+        padding-right: 0;
+    }
+    .port-text.pe-5 {
+        padding-right: 0 !important;
+    }
+    .port-img.pe-5 {
+        padding-right: 0 !important;
+    }
+    .nav-item .btn {
+        padding: 4px 50px;
+        margin-left: -35px;
+        margin-top: 10px;
+    }
+    .company ul {
+	list-style-type: none;
+	margin-bottom: 70px;
+    }
+    .hero-right img {
+	width: 280px;
+    }
+    .port-img img {
+	width: 280px;
+    }
+    .port1 {
+	background-size: 280px 180px;
+	flex-direction: column-reverse;
+	align-items: center;
+    }
+    .port2 {
+	background-size: 290px 230px;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+	padding-bottom: 100px;
+    }
+    .promo-video .thum {
+	width: 300px;
+    }
+    .footer1 {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 50px 0px 25px 0px;
+	flex-direction: column;
+	text-align: center;
+    }
+    .footertxt {
+	margin-bottom: 30px;
+    text-align: center;
+    }
+    .footermail input {
+	width: 300px;
+    }
+    .hero-left .btn1 {
+        font-size: 1.6rem;
+        
+    }
+}
+

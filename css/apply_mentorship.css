@@ -1,0 +1,439 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    background-color: #F9F9F9;
+}
+
+.fullPageWrapper{
+    background-image: url(../img/backtop.png);
+    background-repeat: no-repeat;
+    background-position: top; 
+}
+html{
+    font-size: 62.5%;
+}
+.headerTitle span{
+    font-size: unset !important;
+}
+span, p, label, input, textarea, select, option {
+    font-size: 1.6rem !important;
+}
+
+/*------- nav -----------*/
+nav{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.navbar-brand{
+    font-size: 3.5rem;
+    font-weight: bold!important;
+}
+.nav-link{
+    font-size: 1.6rem;
+    padding-top: 20px;
+    margin-right: 30px;
+    font-weight: 600;
+}
+.nav-link.act{
+    color: #262626!important;
+}
+
+.nav-item{
+    text-align: center;
+    padding-left: 15px;
+    
+}
+.nav-item button{
+    margin-right: -12px;
+    font-weight: 500;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.nav-item .btn{
+    background-color: #343434;
+    padding: 13px 75px 13px 75px;
+    font-size: 2.1rem;
+    border-radius: 15px;
+    color: #ffffff;
+    border: 1px solid #343434;
+}
+.nav-item .btn:hover{
+    background-color: transparent;
+    color: #343434;
+} 
+/* --------header title--------- */
+
+.headerTitle {
+    text-align: center;
+    margin-bottom: 38px;
+    margin-top: 100px;
+}
+
+.headerTitle h1 {
+    font-size: 6.4rem;
+    font-weight: 700;
+}
+
+.headerTitle span {
+    border-bottom: 3px solid #FEE405;
+}
+
+/* ----- Multi Step Progress Bar ----- */
+
+.customWmultiSPB {
+    width: 76.042%;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 26px;
+}
+
+.progressText {
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.circleIcon {
+    height: 68px;
+    width: 68px;
+    background-color: #D0DDDB;
+    border-radius: 50%;
+    border: 4px solid #D0DDDB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    color: #707070;
+    font-weight: 600;
+}
+
+.circleIconSelected {
+    height: 68px;
+    width: 68px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: 4px solid #005267;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #005267;
+}
+
+.progressTandI {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.progressTandI span {
+    display: block;
+    text-align: center;
+}
+
+.progressLine {
+    height: 3px;
+    width: 92%;
+    background-color: #D0DDDB;
+    position: absolute;
+    top: 32px;
+    left: 38px;
+    z-index: 0;
+}
+
+.noteWrapper {
+    width: 56.667%;
+    margin: 0 auto;
+    padding: 50px 90px 90px 90px;
+    border-radius: 15px;
+    background-color: #F5F5F5;
+    border: 1px solid #D4D4D4;
+    margin-bottom: 80px;
+}
+
+.noteWrapper p {
+    margin: 0;
+}
+
+/* -----------form-------------- */
+.extra{
+    width: 65%;
+}
+.customFormCon {
+    width: 82.5%;
+    margin: 0 auto;
+    padding: 165px 120px 100px 120px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    margin-bottom: 80px;
+}
+
+.formTitleText {
+    margin-bottom: 50px;
+}
+
+.formTitleText h2 {
+    font-size: 3.8rem;
+    font-weight: 700;
+}
+
+.customTextArea {
+    height: 290px;
+    padding: 1.5em 2.5em;
+    margin-bottom: 50px;
+}
+
+.accSetText h5 {
+    color: #005267;
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.form-control{
+    border-radius: 10px;
+}
+
+.form-check a {
+    color: #212529;
+}
+
+/* .form-check-input:checked {
+    background-color: #E8F1F0;
+    border-color: #E8F1F0;
+} */
+
+.nxtbutton {
+    background-color: #005267;
+    color: #ffffff;
+    border: 1px solid #005267;
+    margin-bottom: 5px;
+    font-size: 2rem;
+}
+
+.nxtbutton:hover {
+    background-color: #ffffff;
+    color: #005267;
+    border: 1px solid #005267;
+}
+
+.canbutton {
+    background-color: #ffffff;
+    color: #707070;
+    border: 1px solid #ffffff;
+    font-size: 2rem;
+}
+
+.canbutton:hover {
+    background-color: #ffffff;
+    color: #005267;
+    border: 1px solid #005267;
+}
+
+/* -------------footer---------- */
+
+.footer{
+    background: #F0F9F9;
+}
+.footer1{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0px 25px 0px;
+}
+.footertxt h1{
+    font-size: 3rem;
+    padding: 0px;
+    font-weight: 700;
+}
+.footertxt{
+    padding: 0 20px ;
+    text-align: left;
+}
+.footertxt p{
+    font-weight: 300;
+    font-size: 2.1rem;
+    color: #707070;
+}
+.footermail p{
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: #707070;
+}
+
+.footermail input{
+    font-size: 1.9rem;
+    padding: 10px 0px 10px 20px;
+    width: 430px;
+}
+.footernav a {
+    font-weight: 600;
+}
+.footernav{
+    padding-top: 30px;
+    display: block;
+    margin: 0 auto;
+    display: block;
+}
+
+.footernav ul{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px ;
+    padding-left: 0px;
+}
+
+.footernav ul li{
+    list-style: none;
+}
+
+.footernav ul li a{
+    font-size: 1.5rem;
+    padding: 0px 25px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+.footernav ul li a:hover{
+    text-decoration: underline;
+}
+
+.footertxt2{
+    padding-bottom: 25px;
+    font-size: 1.8rem;
+	font-weight: 600;
+	text-align: center;
+
+}
+
+.footerico{
+    text-align: center;
+}
+
+.icons{
+    text-align: center;
+    width: 40px;
+    padding: 12px 0px;
+    font-size: 1.8rem;
+    background: white;
+    border-radius: 5px;
+    margin: 7px;
+    color: #B0B7C3;
+}
+
+.footercopy{
+    text-align: center;
+    margin: 30px 25px 0px 25px;
+    padding-bottom: 30px;
+}
+.footermail input{
+    border: 1px solid #efefef;
+    border-radius: 5px;
+}
+.footercopy p a{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: #707070;
+    padding: 0 10px;
+}
+
+.footercopy p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #707070;
+} 
+.fa-dribbble:hover{
+    color: #BD225E;
+}
+.fa-facebook-f:hover{
+    color: #4064AC;
+}
+.fa-twitter:hover{
+    color: #009DED;
+}
+.fa-youtube:hover{
+    color: red;
+}
+
+
+
+
+
+
+
+
+/*-------------- Responsive-------------- */
+@media (max-width:1200px) {
+   
+}
+
+
+@media (max-width:992px) {
+html{
+    font-size: 50%;
+}
+.customFormCon {
+    padding: 100px 120px 100px 120px;
+}
+}
+@media (max-width:768px) {
+    .nav-item .btn {
+        padding: 4px 50px;
+        margin-left: -35px;
+        margin-top: 10px;
+    }
+
+    br{
+        display: none;
+    }
+.footernav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footernav ul li {
+    margin-bottom: 15px;
+}
+}
+@media (max-width:576px) {
+    .headerTitle h1 {
+        font-size: 5.4rem;
+        font-weight: 700;
+    }
+
+body {
+background-size: 134% 11%;
+}
+.footer1 {
+display: flex;
+justify-content: space-evenly;
+padding: 50px 0px 25px 0px;
+flex-direction: column;
+text-align: center;
+}
+.footertxt {
+margin-bottom: 30px;
+text-align: center;
+}
+.footermail input {
+width: 300px;
+}
+.noteWrapper {
+	width: 100%;
+	
+	padding: 35px;
+
+}
+.customFormCon {
+	padding: 40px 20px;
+}
+
+}
+
+
